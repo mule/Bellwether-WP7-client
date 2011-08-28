@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="20f3552d-9b59-488c-a9ea-d0a9c3d47cbc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/Bellwether/svc/Authentication.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AuthenticationService.wsdl" MetadataType="Wsdl" ID="24519cda-4cfa-479c-8304-28c1a654e1e2" SourceId="1" SourceUrl="http://localhost/Bellwether/svc/Authentication.svc?wsdl" />
+    <MetadataFile FileName="Authentication.xsd" MetadataType="Schema" ID="68b694bb-ed1c-4b23-98ff-e0ff70801bc4" SourceId="1" SourceUrl="http://localhost/Bellwether/svc/Authentication.svc?xsd=xsd1" />
+    <MetadataFile FileName="Authentication.disco" MetadataType="Disco" ID="9284dbdd-3c48-468d-a98b-3cf8e35a8b29" SourceId="1" SourceUrl="http://localhost/Bellwether/svc/Authentication.svc?disco" />
+    <MetadataFile FileName="Authentication.wsdl" MetadataType="Wsdl" ID="0b95e9bf-5a51-4cfe-b8db-96854cc36563" SourceId="1" SourceUrl="http://localhost/Bellwether/svc/Authentication.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="Authentication1.xsd" MetadataType="Schema" ID="c86b31d8-34fa-4307-8b81-893fa5dedab7" SourceId="1" SourceUrl="http://localhost/Bellwether/svc/Authentication.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
